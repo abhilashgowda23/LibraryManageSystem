@@ -7,6 +7,8 @@ import java.util.Scanner;
 public class Student {
 	public String studentName;
 	public String regNum;
+	public String email;
+	public String mobileNumber;
 
 	Book[] borrowedBooks = new Book[3];
 	public int booksCount = 0;
